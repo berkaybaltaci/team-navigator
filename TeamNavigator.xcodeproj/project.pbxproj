@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22287FCD2AD6F9500087AB22 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FCC2AD6F9500087AB22 /* Employee.swift */; };
+		22287FD02AD6FAC40087AB22 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FCF2AD6FAC40087AB22 /* CSVReader.swift */; };
+		22287FD32AD6FE850087AB22 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 22287FD22AD6FE850087AB22 /* SwiftCSV */; };
+		22287FD72AD702CA0087AB22 /* sample_data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22287FD62AD702CA0087AB22 /* sample_data.csv */; };
+		22287FD92AD70A610087AB22 /* UIScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FD82AD70A610087AB22 /* UIScreenExtensions.swift */; };
+		22287FDC2AD70C1C0087AB22 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FDB2AD70C1C0087AB22 /* Api.swift */; };
+		22287FDE2AD70EB60087AB22 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FDD2AD70EB60087AB22 /* ColorExtensions.swift */; };
+		22287FE02AD7130A0087AB22 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22287FDF2AD7130A0087AB22 /* ViewExtensions.swift */; };
 		225ACB702AD6D86A009B69A0 /* TeamNavigatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB6F2AD6D86A009B69A0 /* TeamNavigatorApp.swift */; };
 		225ACB722AD6D86A009B69A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB712AD6D86A009B69A0 /* ContentView.swift */; };
 		225ACB742AD6D86C009B69A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225ACB732AD6D86C009B69A0 /* Assets.xcassets */; };
 		225ACB772AD6D86C009B69A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225ACB762AD6D86C009B69A0 /* Preview Assets.xcassets */; };
 		225ACB802AD6D8B2009B69A0 /* EmployeeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB7F2AD6D8B2009B69A0 /* EmployeeProfileView.swift */; };
+		225ACB892AD6F284009B69A0 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB882AD6F284009B69A0 /* ArrayExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22287FCC2AD6F9500087AB22 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		22287FCF2AD6FAC40087AB22 /* CSVReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		22287FD62AD702CA0087AB22 /* sample_data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample_data.csv; path = TeamNavigator/sample_data.csv; sourceTree = "<group>"; };
+		22287FD82AD70A610087AB22 /* UIScreenExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtensions.swift; sourceTree = "<group>"; };
+		22287FDB2AD70C1C0087AB22 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		22287FDD2AD70EB60087AB22 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		22287FDF2AD7130A0087AB22 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		225ACB6C2AD6D86A009B69A0 /* TeamNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225ACB6F2AD6D86A009B69A0 /* TeamNavigatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamNavigatorApp.swift; sourceTree = "<group>"; };
 		225ACB712AD6D86A009B69A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		225ACB732AD6D86C009B69A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225ACB762AD6D86C009B69A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		225ACB7F2AD6D8B2009B69A0 /* EmployeeProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileView.swift; sourceTree = "<group>"; };
+		225ACB882AD6F284009B69A0 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,15 +45,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22287FD32AD6FE850087AB22 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22287FCE2AD6FAB30087AB22 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				22287FCF2AD6FAC40087AB22 /* CSVReader.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		22287FDA2AD70C100087AB22 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				22287FDB2AD70C1C0087AB22 /* Api.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
 		225ACB632AD6D86A009B69A0 = {
 			isa = PBXGroup;
 			children = (
+				22287FD62AD702CA0087AB22 /* sample_data.csv */,
 				225ACB6E2AD6D86A009B69A0 /* TeamNavigator */,
 				225ACB6D2AD6D86A009B69A0 /* Products */,
 			);
@@ -53,6 +88,9 @@
 		225ACB6E2AD6D86A009B69A0 /* TeamNavigator */ = {
 			isa = PBXGroup;
 			children = (
+				22287FDA2AD70C100087AB22 /* api */,
+				22287FCE2AD6FAB30087AB22 /* util */,
+				225ACB872AD6F272009B69A0 /* extension */,
 				225ACB7E2AD6D887009B69A0 /* model */,
 				225ACB7D2AD6D881009B69A0 /* view */,
 				225ACB6F2AD6D86A009B69A0 /* TeamNavigatorApp.swift */,
@@ -82,8 +120,20 @@
 		225ACB7E2AD6D887009B69A0 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				22287FCC2AD6F9500087AB22 /* Employee.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		225ACB872AD6F272009B69A0 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				225ACB882AD6F284009B69A0 /* ArrayExtensions.swift */,
+				22287FD82AD70A610087AB22 /* UIScreenExtensions.swift */,
+				22287FDD2AD70EB60087AB22 /* ColorExtensions.swift */,
+				22287FDF2AD7130A0087AB22 /* ViewExtensions.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +152,9 @@
 			dependencies = (
 			);
 			name = TeamNavigator;
+			packageProductDependencies = (
+				22287FD22AD6FE850087AB22 /* SwiftCSV */,
+			);
 			productName = TeamNavigator;
 			productReference = 225ACB6C2AD6D86A009B69A0 /* TeamNavigator.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 225ACB632AD6D86A009B69A0;
+			packageReferences = (
+				22287FD12AD6FE850087AB22 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = 225ACB6D2AD6D86A009B69A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,6 +202,7 @@
 			files = (
 				225ACB772AD6D86C009B69A0 /* Preview Assets.xcassets in Resources */,
 				225ACB742AD6D86C009B69A0 /* Assets.xcassets in Resources */,
+				22287FD72AD702CA0087AB22 /* sample_data.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +215,14 @@
 			files = (
 				225ACB802AD6D8B2009B69A0 /* EmployeeProfileView.swift in Sources */,
 				225ACB722AD6D86A009B69A0 /* ContentView.swift in Sources */,
+				22287FD02AD6FAC40087AB22 /* CSVReader.swift in Sources */,
 				225ACB702AD6D86A009B69A0 /* TeamNavigatorApp.swift in Sources */,
+				22287FD92AD70A610087AB22 /* UIScreenExtensions.swift in Sources */,
+				22287FDE2AD70EB60087AB22 /* ColorExtensions.swift in Sources */,
+				22287FCD2AD6F9500087AB22 /* Employee.swift in Sources */,
+				22287FDC2AD70C1C0087AB22 /* Api.swift in Sources */,
+				22287FE02AD7130A0087AB22 /* ViewExtensions.swift in Sources */,
+				225ACB892AD6F284009B69A0 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +423,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22287FD12AD6FE850087AB22 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22287FD22AD6FE850087AB22 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22287FD12AD6FE850087AB22 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 225ACB642AD6D86A009B69A0 /* Project object */;
 }

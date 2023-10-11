@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "947A571B-856E-4D93-BC4E-9E9C6C78B8D3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7119CE88-A510-4510-AFCD-86DEE7151D30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TeamNavigator/util/CSVReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "readCSVFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31323DFF-38D5-48FA-A3F9-ADB92F62808D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TeamNavigator/util/CSVReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "readCSVFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31323DFF-38D5-48FA-A3F9-ADB92F62808D - 2a5e887edc52da1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static TeamNavigator.CSVReader.readCSVFile() -&gt; Swift.Array&lt;TeamNavigator.Employee&gt;"
+                  moduleName = "TeamNavigator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Berkay.Baltaci/Documents/iosProjects/TeamNavigator/TeamNavigator/util/CSVReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "5504">
+               </Location>
+               <Location
+                  uuid = "31323DFF-38D5-48FA-A3F9-ADB92F62808D - 2a5e887edc52da1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static TeamNavigator.CSVReader.readCSVFile() -&gt; Swift.Array&lt;TeamNavigator.Employee&gt;"
+                  moduleName = "TeamNavigator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Berkay.Baltaci/Documents/iosProjects/TeamNavigator/TeamNavigator/util/CSVReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "5324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
