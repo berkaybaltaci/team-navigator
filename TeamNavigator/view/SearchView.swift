@@ -41,6 +41,8 @@ struct SearchView: View {
             teamSearchResults = Api.getAllEmployees()
               .map { $0.teamStructure }
               .filter { $0.lowercased().contains(newValue.lowercased()) }
+            let uniqueResults = Set(teamSearchResults)
+            teamSearchResults = Array(uniqueResults)
           }
         }
 
