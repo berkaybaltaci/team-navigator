@@ -11,6 +11,7 @@
 		225ACB722AD6D86A009B69A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB712AD6D86A009B69A0 /* ContentView.swift */; };
 		225ACB742AD6D86C009B69A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225ACB732AD6D86C009B69A0 /* Assets.xcassets */; };
 		225ACB772AD6D86C009B69A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225ACB762AD6D86C009B69A0 /* Preview Assets.xcassets */; };
+		225ACB802AD6D8B2009B69A0 /* EmployeeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225ACB7F2AD6D8B2009B69A0 /* EmployeeProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		225ACB712AD6D86A009B69A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		225ACB732AD6D86C009B69A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225ACB762AD6D86C009B69A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		225ACB7F2AD6D8B2009B69A0 /* EmployeeProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		225ACB6E2AD6D86A009B69A0 /* TeamNavigator */ = {
 			isa = PBXGroup;
 			children = (
+				225ACB7E2AD6D887009B69A0 /* model */,
+				225ACB7D2AD6D881009B69A0 /* view */,
 				225ACB6F2AD6D86A009B69A0 /* TeamNavigatorApp.swift */,
 				225ACB712AD6D86A009B69A0 /* ContentView.swift */,
 				225ACB732AD6D86C009B69A0 /* Assets.xcassets */,
@@ -65,6 +69,21 @@
 				225ACB762AD6D86C009B69A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		225ACB7D2AD6D881009B69A0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				225ACB7F2AD6D8B2009B69A0 /* EmployeeProfileView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		225ACB7E2AD6D887009B69A0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225ACB802AD6D8B2009B69A0 /* EmployeeProfileView.swift in Sources */,
 				225ACB722AD6D86A009B69A0 /* ContentView.swift in Sources */,
 				225ACB702AD6D86A009B69A0 /* TeamNavigatorApp.swift in Sources */,
 			);
