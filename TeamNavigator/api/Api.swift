@@ -8,7 +8,12 @@
 import Foundation
 
 class Api {
+  static var allEmployees: [Employee]?
+
   static func getAllEmployees() -> [Employee] {
-    return CSVReader.readCSVFile()
+    if allEmployees == nil {
+      allEmployees = CSVReader.readCSVFile()
+    }
+    return allEmployees!
   }
 }

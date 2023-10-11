@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     NavigationView {
-      let employees = Api.getAllEmployees()
-      let randomEmployee = employees.randomElement() ?? employees[0]
-//      let randomEmployee = employees[1]
-      EmployeeProfileView(employee: randomEmployee)
+      SearchView()
     }
   }
 }

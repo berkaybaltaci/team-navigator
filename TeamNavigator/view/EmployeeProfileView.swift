@@ -24,6 +24,13 @@ struct EmployeeProfileView: View {
       .padding(.horizontal, 15)
       .padding(.vertical, 20)
     }
+    .toolbar {
+      ToolbarItem(placement: .navigationBarTrailing) {
+        NavigationLink(destination: SearchView()) {
+          Text("Go to search")
+        }
+      }
+    }
   }
 
   private func employeeInfo(_ employee: Employee) -> some View {
@@ -53,8 +60,8 @@ struct EmployeeProfileView: View {
       VStack(spacing: 10) {
         // TODO: Find a better solution if you have time left
         let teammates = CSVReader.readCSVFile().filter {
-                    $0.teamStructure == employee.teamStructure && $0.employeeID != employee.employeeID
-//          !$0.teamStructure.isEmpty
+          $0.teamStructure == employee.teamStructure && $0.employeeID != employee.employeeID
+          //          !$0.teamStructure.isEmpty
         }
         if teammates.isEmpty {
           Text("NO ONE :(")
@@ -113,13 +120,13 @@ struct EmployeeProfileView: View {
     HStack {
       Spacer()
       ForEach(arr, id: \.id) { employee in
-        tile(employee)
+        employeeTile(employee)
         Spacer()
       }
     }
   }
 
-  private func tile(_ employee: Employee) -> some View {
+  func employeeTile(_ employee: Employee) -> some View {
     NavigationLink(destination: EmployeeProfileView(employee: employee)) {
       VStack {
         Text(employee.fullName)
