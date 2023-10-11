@@ -33,8 +33,8 @@ struct EmployeeProfileView: View {
         .foregroundColor(.primaryText)
       Text(employee.jobDescription)
         .foregroundColor(.secondaryText)
-      Text(employee.teamStructure)
-        .foregroundColor(.secondaryText)
+//      Text(employee.teamStructure)
+//        .foregroundColor(.secondaryText)
     }
     .padding(.all, 10)
     .frame(maxWidth: .infinity, alignment: .leading)
@@ -52,6 +52,7 @@ struct EmployeeProfileView: View {
         .padding(.bottom, 20)
       VStack(spacing: 10) {
         // TODO: Find a better solution if you have time left
+          // Problem here is we would need to compare the arrays of team structures for any matching elements
         let teammates = CSVReader.readCSVFile().filter {
                     $0.teamStructure == employee.teamStructure && $0.employeeID != employee.employeeID
 //          !$0.teamStructure.isEmpty
