@@ -30,7 +30,7 @@ struct Employee: Identifiable, Hashable {
   var businessUnit: String
   var buDescription: String
   var departmentDesc: String
-  var teamStructure: String
+  var teamStructure: [String]
 
   // Implement the hashValue based on a unique property
   func hash(into hasher: inout Hasher) {

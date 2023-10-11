@@ -16,6 +16,10 @@ class CSVReader {
       let csvFile = try CSV<Named>(url: fileURL)
 
       var employees: [Employee] = []
+        
+        func handleTeamStructure (_ teamStructureString: String) -> [String] {
+            return teamStructureString.components(separatedBy: "\n")
+        }
 
       for row in csvFile.rows {
         if let employeeID = row["Employee ID"],
@@ -32,7 +36,8 @@ class CSVReader {
            let businessUnit = row["Business Unit"],
            let buDescription = row["BU Description"],
            let departmentDesc = row["Department Desc"],
-           let teamStructure = row["Team Structure"] {
+           let teamStructureString = row["Team Structure"],
+           let teamStructure = handleTeamStructure(teamStructureString) {
           let employee = Employee(
             employeeID: employeeID,
             firstName: firstName,
